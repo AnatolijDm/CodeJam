@@ -1,8 +1,9 @@
-.text, .keys {
+#text, .keys {
     border: 1px solid black;
     width: 1400px;
     height: 500px;
     background-color: rgba(255, 255, 255, 0.2);
+    font-size: 50px;
 }
 
 .keys {
@@ -67,4 +68,8 @@
     background-color: black;
     display: inline-block;
     margin: 5px;
+}
+
+.keyQ:hover, .keyB:hover, .keySpace:hover, .enter:hover, .tab:hover {
+    background-color: rgb(92, 26, 26);
 }

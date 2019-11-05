@@ -1,5 +1,5 @@
-var d = document.createElement('div');
-d.className = 'text';
+var d = document.createElement('p');
+d.id = 'text';
 document.body.appendChild(d);
 
 var k = document.createElement('div');
@@ -10,8 +10,9 @@ var row1 = document.createElement('div');
 row1.className = 'row';
 k.appendChild(row1);
 
-var q = document.createElement('div');
+var q = document.createElement('button');
 q.className = 'keyQ';
+q.type = 'button';
 q.innerHTML = '`'
 row1.appendChild(q);
 
